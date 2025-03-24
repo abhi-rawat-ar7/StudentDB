@@ -1,0 +1,18 @@
+{
+  "name": "student-db",
+  "version": "1.0.0",
+  "description": "student-db/\r │\r ├── node_modules/                 # Dependencies installed by npm\r │\r ├── public/                        # Static files (if needed in the future)\r │   └── index.html                 # A sample HTML file (optional)\r │\r ├── routes/                        # Separate folder for routes\r │   └── students.js                # Routes related to student management\r │\r ├── database/                      # Database-related files (e.g., database setup)\r │   └── db.js                      # MySQL connection setup\r │\r ├── .gitignore                     # To exclude files from git\r ├── index.js                       # Entry point of the application\r ├── package.json                   # Project configuration\r └── README.md                      # Project overview and instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2",
+    "mysql2": "^3.14.0"
+  }
+}
